@@ -2,6 +2,53 @@ body{
     font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
 }
+section{
+    margin-bottom: 150px;
+}
+h1{
+    width: 50%;
+}
 .orange-color{
     color: orange;
+}
+.top-banner{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+.top-banner img{
+    width: 100%;
+}
+.half-width{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.dream-big{
+    display: flex;
+}
+.dream-big img{
+    width: 100%;
+}
+.flexible-container{
+    display: flex;
+}
+.footer{
+    text-align: center;
+    justify-content: end;
+}
+.experience-full-stack{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+.experience-baby-web{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
 }
