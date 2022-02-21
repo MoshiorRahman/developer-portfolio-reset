@@ -6,8 +6,12 @@ section{
     margin-bottom: 150px;
 }
 h1{
-    width: 50%;
+    font-size: 50px;
+
 }
+/* h2{
+    width: 40%;
+} */
 .orange-color{
     color: orange;
 }
@@ -38,17 +42,19 @@ h1{
     text-align: center;
     justify-content: end;
 }
-.experience-full-stack{
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 20px;
-    box-shadow: 10px 10px 40px gray;
+#experience-full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato,salmon);
+    border-image-slice: 1;
 }
-.experience-baby-web{
+#experience-baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+.experience-item{
     width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 20px;
+    margin: 4%;
+    padding: 30px;
     box-shadow: 10px 10px 40px gray;
 }
