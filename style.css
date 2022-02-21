@@ -24,10 +24,21 @@ h1{
 .top-banner img{
     width: 100%;
 }
+.top-banner p{
+    margin-bottom: 30px;
+}
 .half-width{
     width: 100%;
     margin-left: 5%;
     margin-right: 5%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,orange);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
 }
 .dream-big{
     display: flex;
@@ -37,6 +48,9 @@ h1{
 }
 .dream-big img{
     width: 100%;
+}
+.dream-big p{
+    margin-bottom: 30px;
 }
 .flexible-container{
     display: flex;
